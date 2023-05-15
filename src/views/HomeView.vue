@@ -68,6 +68,66 @@
           :icon-size="[45, 45]"
         />
       </l-marker>
+      <l-marker :lat-lng="[-7.26241,112.68598]">
+        <l-icon
+          icon-url="https://i.postimg.cc/mDB2N2D9/Banjir-Mark.png"
+          :icon-size="[45, 45]"
+        />
+      </l-marker>
+      <l-marker :lat-lng="[-7.28039,112.68221]">
+        <l-icon
+          icon-url="https://i.postimg.cc/mDB2N2D9/Banjir-Mark.png"
+          :icon-size="[45, 45]"
+        />
+      </l-marker>
+      <l-marker :lat-lng="[-7.27390,112.69853]">
+        <l-icon
+          icon-url="https://i.postimg.cc/mDB2N2D9/Banjir-Mark.png"
+          :icon-size="[45, 45]"
+        />
+      </l-marker>
+      <l-marker :lat-lng="[-7.27337,112.70399]">
+        <l-icon
+          icon-url="https://i.postimg.cc/mDB2N2D9/Banjir-Mark.png"
+          :icon-size="[45, 45]"
+        />
+      </l-marker>
+      <l-marker :lat-lng="[-7.27466,112.70680]">
+        <l-icon
+          icon-url="https://i.postimg.cc/mDB2N2D9/Banjir-Mark.png"
+          :icon-size="[45, 45]"
+        />
+      </l-marker>
+      <l-marker :lat-lng="[-7.25914,112.67966]">
+        <l-icon
+          icon-url="https://i.postimg.cc/mDB2N2D9/Banjir-Mark.png"
+          :icon-size="[45, 45]"
+        />
+      </l-marker>
+      <l-marker :lat-lng="[-7.2589,112.6870]">
+        <l-icon
+          icon-url="https://i.postimg.cc/mDB2N2D9/Banjir-Mark.png"
+          :icon-size="[45, 45]"
+        />
+      </l-marker>
+       <l-marker :lat-lng="[-7.2415,112.7177]">
+        <l-icon
+          icon-url="https://i.postimg.cc/mDB2N2D9/Banjir-Mark.png"
+          :icon-size="[45, 45]"
+        />
+      </l-marker>
+      <l-marker :lat-lng="[-7.24455, 112.72572]">
+        <l-icon
+          icon-url="https://i.postimg.cc/mDB2N2D9/Banjir-Mark.png"
+          :icon-size="[45, 45]"
+        />
+      </l-marker>
+       <l-marker :lat-lng="[-7.2561,112.7826]">
+        <l-icon
+          icon-url="https://i.postimg.cc/mDB2N2D9/Banjir-Mark.png"
+          :icon-size="[45, 45]"
+        />
+      </l-marker>
       <l-control-layers />
     </l-map>
   </div>
