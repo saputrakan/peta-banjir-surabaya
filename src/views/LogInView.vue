@@ -1,10 +1,10 @@
 <template>
   <div class="intro-container">
     <div class="content">
-      <h1>Welcome to My App!</h1>
-      <p>This is a Vue.js application that showcases various features and functionalities.</p>
+      <h1>Mall Point</h1>
+      <p>Aplikasi Menampilkan Data Mall di Jawa Timur</p>
     </div>
-    <button class="get-started-button" @click="startApp">Get Started</button>
+    <button class="get-started-button" @click="startApp">Masuk</button>
   </div>
 </template>
 
