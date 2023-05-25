@@ -2,7 +2,7 @@
   <div class="intro-container">
     <div class="content">
       <h1>Mall Point</h1>
-      <p>Aplikasi Menampilkan Data Mall di Jawa Timur</p>
+      <p>Aplikasi Menampilkan Data Mall di Jawa Timu</p>
     </div>
     <button class="get-started-button" @click="startApp">Masuk</button>
   </div>
