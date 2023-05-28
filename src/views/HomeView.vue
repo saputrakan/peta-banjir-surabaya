@@ -860,6 +860,193 @@
           </h4>
         </l-popup>
       </l-marker>
+      <!-- Lamongan -->
+      <l-marker :lat-lng="[-7.11291, 112.42001]">
+        <l-icon icon-url="https://i.postimg.cc/vTZKF16j/mall-point.png" :icon-size="[60, 60]" />
+        <l-popup>
+          <h1>Lamonga Plaza</h1>
+          <h4>
+            <br />Alamat: Jl. Lamongrejo, Dapur Utara, Sidokumpul <br />Waktu: 09 AM - 10 PM
+            <br />Nomor: (0356) 3216524
+          </h4>
+        </l-popup>
+      </l-marker>
+      <!-- Pasuruan -->
+      <l-marker :lat-lng="[-7.6374, 112.90012]">
+        <l-icon icon-url="https://i.postimg.cc/vTZKF16j/mall-point.png" :icon-size="[60, 60]" />
+        <l-popup>
+          <h1>Transmart Pasuruan</h1>
+          <h4>
+            <br />Alamat: Jl. Soekarno Hatta, Pasuruan Land, Karanganyar, Kec. Panggungrejo
+            <br />Waktu: 09 AM - 10 PM <br />Nomor: 082208255172
+          </h4>
+        </l-popup>
+      </l-marker>
+      <!-- Pasuruan -->
+      <l-marker :lat-lng="[-7.64527, 112.90446]">
+        <l-icon icon-url="https://i.postimg.cc/vTZKF16j/mall-point.png" :icon-size="[60, 60]" />
+        <l-popup>
+          <h1>Delta Super Store</h1>
+          <h4>
+            <br />Alamat: Jl. Kh. Wachid Hasyim, Kebonsari, Kec. Panggungrejo, Kota Pasuruan
+            <br />Waktu: 09 AM - 09 PM <br />Nomor: 081356982811
+          </h4>
+        </l-popup>
+      </l-marker>
+      <!-- Gresik -->
+      <l-marker :lat-lng="[-7.15789, 112.61639]">
+        <l-icon icon-url="https://i.postimg.cc/vTZKF16j/mall-point.png" :icon-size="[60, 60]" />
+        <l-popup>
+          <h1>Gresik Grand Mall</h1>
+          <h4>
+            <br />Alamat: Jl. Sumatra No.1-5, RT.07/RW.08, Gn. Malang, Randuagung, Kec. Kebomas
+            <br />Waktu: 10 AM - 10 PM <br />Nomor: 03139929900
+          </h4>
+        </l-popup>
+      </l-marker>
+      <!-- Gresik -->
+      <l-marker :lat-lng="[-7.1663, 112.60187]">
+        <l-icon icon-url="https://i.postimg.cc/vTZKF16j/mall-point.png" :icon-size="[60, 60]" />
+        <l-popup>
+          <h1>Icon Mall Gresik</h1>
+          <h4>
+            <br />Alamat: Jl. DR. Wahidin Sudiro Husodo No.788, Kembangan, Dahanrejo, Kec. Kebomas
+            <br />Waktu: 10 AM - 10 PM <br />Nomor: (0356) 321642
+          </h4>
+        </l-popup>
+      </l-marker>
+      <!-- Probolinggo -->
+      <l-marker :lat-lng="[-7.75245, 113.21667]">
+        <l-icon icon-url="https://i.postimg.cc/vTZKF16j/mall-point.png" :icon-size="[60, 60]" />
+        <l-popup>
+          <h1>Graha mulia Probolinggo</h1>
+          <h4>
+            <br />Alamat: Jl. Dr.Sutomo No.42, Tisnonegaran, Kec. Kanigaran, Kota Probolinggo
+            <br />Waktu: 08 AM - 09 PM <br />Nomor: (0356) 321687
+          </h4>
+        </l-popup>
+      </l-marker>
+      <!-- Probolinggo -->
+      <l-marker :lat-lng="[-7.74927, 113.21706]">
+        <l-icon icon-url="https://i.postimg.cc/vTZKF16j/mall-point.png" :icon-size="[60, 60]" />
+        <l-popup>
+          <h1>KDS Departement Store</h1>
+          <h4>
+            <br />Alamat: Jl. Dr.Sutomo No.60A, Tisnonegaran, Kec. Kanigaran, Kota Probolinggo
+            <br />Waktu:09 AM - 09 PM <br />Nomor: (0356) 321642
+          </h4>
+        </l-popup>
+      </l-marker>
+      <!-- Bayuwangi -->
+      <l-marker :lat-lng="[-8.23033, 114.36427]">
+        <l-icon icon-url="https://i.postimg.cc/vTZKF16j/mall-point.png" :icon-size="[60, 60]" />
+        <l-popup>
+          <h1>Ramayana Bayuwangi</h1>
+          <h4>
+            <br />Alamat: Jl. Adi Sucipto, Tukangkayu, Kec. Banyuwangi, Kabupaten Banyuwangi
+            <br />Waktu: 10 AM - 10 PM <br />Nomor: (0356) 321665
+          </h4>
+        </l-popup>
+      </l-marker>
+      <!-- Banyuwangi -->
+      <l-marker :lat-lng="[-8.21838, 114.3702]">
+        <l-icon icon-url="https://i.postimg.cc/vTZKF16j/mall-point.png" :icon-size="[60, 60]" />
+        <l-popup>
+          <h1>Roxxy mall Banyuwangi</h1>
+          <h4>
+            <br />Alamat: Jl. Jenderal Ahmad Yani No.21, Penganjuran, Kec. Banyuwangi <br />Waktu:
+            09 AM - 09 PM <br />Nomor: 08192222399
+          </h4>
+        </l-popup>
+      </l-marker>
+      <!-- Banyuwangi -->
+      <l-marker :lat-lng="[-8.36457, 114.14785]">
+        <l-icon icon-url="https://i.postimg.cc/vTZKF16j/mall-point.png" :icon-size="[60, 60]" />
+        <l-popup>
+          <h1>Sun East Mall</h1>
+          <h4>
+            <br />Alamat: Sun East Mall, Jl. Diponegoro No.11, Dusun Krajan, Genteng Kulon
+            <br />Waktu: 10 AM - 09 PM <br />Nomor: 03338502397
+          </h4>
+        </l-popup>
+      </l-marker>
+      <!-- Banyuwangi -->
+      <l-marker :lat-lng="[-8.36533, 114.1469]">
+        <l-icon icon-url="https://i.postimg.cc/vTZKF16j/mall-point.png" :icon-size="[60, 60]" />
+        <l-popup>
+          <h1>KDS Mall Banyuwangi</h1>
+          <h4>
+            <br />Alamat: Jl. Diponegoro, Dusun Krajan, Genteng Kulon, Kec. Genteng <br />Waktu:
+            08:30 AM - 09:00 PM <br />Nomor: 081259401600
+          </h4>
+        </l-popup>
+      </l-marker>
+      <!-- Situbondo -->
+      <l-marker :lat-lng="[-7.7041, 114.00999]">
+        <l-icon icon-url="https://i.postimg.cc/vTZKF16j/mall-point.png" :icon-size="[60, 60]" />
+        <l-popup>
+          <h1>KDS Situbondo</h1>
+          <h4>
+            <br />Alamat: Jl. Achmad Yani No.183, Parse, Dawuhan, Kec. Situbondo <br />Waktu: 08:30
+            AM - 09:00 PM <br />Nomor: (0356) 321642
+          </h4>
+        </l-popup>
+      </l-marker>
+      <!-- Mojokerto -->
+      <l-marker :lat-lng="[-7.47177, 112.4428]">
+        <l-icon icon-url="https://i.postimg.cc/vTZKF16j/mall-point.png" :icon-size="[60, 60]" />
+        <l-popup>
+          <h1>Carrefour Mojokerto</h1>
+          <h4>
+            <br />Alamat: Jl. Benteng Pancasila No.54, Mergelo, Balongsari, Kec. Magersari
+            <br />Waktu: 10 AM - 09 PM <br />Nomor: (0321)398710
+          </h4>
+        </l-popup>
+      </l-marker>
+      <!-- Mojokerto -->
+      <l-marker :lat-lng="[-7.47678, 112.43196]">
+        <l-icon icon-url="https://i.postimg.cc/vTZKF16j/mall-point.png" :icon-size="[60, 60]" />
+        <l-popup>
+          <h1>Keraton Sultan Plaza Mojokerto</h1>
+          <h4>
+            <br />Alamat: Jl. Mojopahit No.412, Mergelo, Miji, Kec. Prajurit Kulon <br />Waktu: 8 AM
+            - 9 PM <br />Nomor: (0356) 321642
+          </h4>
+        </l-popup>
+      </l-marker>
+      <!-- Lumajang -->
+      <l-marker :lat-lng="[-8.13945, 113.20771]">
+        <l-icon icon-url="https://i.postimg.cc/vTZKF16j/mall-point.png" :icon-size="[60, 60]" />
+        <l-popup>
+          <h1>Graha mulia plaza lumajang</h1>
+          <h4>
+            <br />Alamat: Jurang Mangu, Labruk Lor, Kec. Lumajang, Kabupaten Lumajang <br />Waktu:
+            09 AM - 10 PM <br />Nomor: 082332227444
+          </h4>
+        </l-popup>
+      </l-marker>
+      <!-- Lumajang -->
+      <l-marker :lat-lng="[-8.12911, 113.22475]">
+        <l-icon icon-url="https://i.postimg.cc/vTZKF16j/mall-point.png" :icon-size="[60, 60]" />
+        <l-popup>
+          <h1>Plaza Lumajang</h1>
+          <h4>
+            <br />Alamat: V6CG+G2G, Tompokersan, Kec. Lumajang, Kabupaten Lumajang <br />Waktu: 9 AM
+            - 9 PM <br />Nomor: (0356) 321667
+          </h4>
+        </l-popup>
+      </l-marker>
+      <!-- Bangkalan -->
+      <l-marker :lat-lng="[-7.05043, 112.74382]">
+        <l-icon icon-url="https://i.postimg.cc/vTZKF16j/mall-point.png" :icon-size="[60, 60]" />
+        <l-popup>
+          <h1>Bangkalan Plaza</h1>
+          <h4>
+            <br />Alamat: Jl. Halim Perdana Kusuma, Area Sawah, Mlajah, Kec. Bangkalan <br />Waktu:
+            10 AM - 09 PM <br />Nomor: (0356) 321622
+          </h4>
+        </l-popup>
+      </l-marker>
     </l-map>
   </div>
 </template>
