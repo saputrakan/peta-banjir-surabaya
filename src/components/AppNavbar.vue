@@ -14,7 +14,7 @@ export default {
     return {
       menuItems: [
         { id: 1, title: 'Beranda', url: '/' },
-        { id: 2, title: 'Tentang Kami', url: '/tentang' },
+        { id: 2, title: 'Tentang Kami', url: '/about' },
         { id: 3, title: 'Layanan', url: '/layanan' },
         { id: 4, title: 'Kontak', url: '/kontak' },
       ],

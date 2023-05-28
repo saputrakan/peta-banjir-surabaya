@@ -1,69 +1,63 @@
 <template>
-  <div class="home">
-    <l-map v-model="zoom" v-model:zoom="zoom" :center="[-6.97, 112.313]">
-      <l-tile-layer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"></l-tile-layer>
-      <!-- Mojokerto -->
-      <l-marker :lat-lng="[-7.4713, 112.44354]">
-        <l-icon icon-url="https://i.postimg.cc/vTZKF16j/mall-point.png" :icon-size="[60, 60]" />
-        <l-popup>
-          <h1>Sunrise Mall</h1>
-          <h4>
-            <br />Alamat: Jl. Benteng Pancasila No.9, Mergelo, Balongsari, Kec. Magersari
-            <br />Waktu Buka: 10 AM - 10 PM <br />Nomor: (0321) 5283888
-          </h4>
-        </l-popup>
-      </l-marker>
-      <!-- Ponorogo -->
-      <l-marker :lat-lng="[-7.87075, 111.48381]">
-        <l-icon icon-url="https://i.postimg.cc/vTZKF16j/mall-point.png" :icon-size="[60, 60]" />
-        <l-popup>
-          <h1>Ponorogo City Center</h1>
-          <h4>
-            <br />Alamat: Jl. Ir. H Juanda No.19, Tonatan, Kec. Ponorogo <br />Waktu: 10 AM ⋅ 9 PM
-            <br />Nomor: (0352) 3514178
-          </h4>
-        </l-popup>
-      </l-marker>
-      <!-- Tuban -->
-      <l-marker :lat-lng="[-6.89939, 112.0632]">
-        <l-icon icon-url="https://i.postimg.cc/vTZKF16j/mall-point.png" :icon-size="[60, 60]" />
-        <l-popup>
-          <h1>Bravo Supermarket Tuban</h1>
-          <h4>
-            <br />Alamat: Jl. Basuki Rachmad No.64, Kutorejo, Kec. Tuban <br />Waktu: 8 AM - 9:30 PM
-            <br />Nomor: (0356) 321642
-          </h4>
-        </l-popup>
-      </l-marker>
-    </l-map>
+  <div class="intro-container">
+    <div class="content">
+      <h1>Mall Point</h1>
+      <p>Aplikasi Menampilkan Data Mall di Jawa Timu</p>
+    </div>
+    <button class="get-started-button" @click="startApp">Masuk</button>
   </div>
 </template>
 
 <script>
-import { LMap, LIcon, LMarker, LTileLayer, LPopup } from "@vue-leaflet/vue-leaflet";
-import { ref } from "vue";
-
 export default {
-  name: "HomeView",
-  components: {
-    LMap,
-    LIcon,
-    LMarker,
-    LTileLayer,
-    LPopup,
-  },
-  setup() {
-    const zoom = ref(8);
-    return {
-      zoom,
-    };
+  methods: {
+    startApp() {
+      // Perform any necessary actions to start the app
+      // For example, you can redirect the user to the main page
+      // using Vue Router:
+      this.$router.push('/map');
+    },
   },
 };
 </script>
 
-<style lang="scss">
-.home {
-  width: 100%;
-  height: 100%;
+<style scoped>
+.intro-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.content {
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.get-started-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.get-started-button:hover {
+  background-color: #45a049;
 }
 </style>
