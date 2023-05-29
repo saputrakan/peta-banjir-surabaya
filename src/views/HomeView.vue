@@ -1052,13 +1052,11 @@
 </template>
 
 <script>
-import {
-  LMap, LIcon, LMarker, LTileLayer, LPopup,
-} from '@vue-leaflet/vue-leaflet';
-import { ref } from 'vue';
+import { LMap, LIcon, LMarker, LTileLayer, LPopup } from "@vue-leaflet/vue-leaflet";
+import { ref } from "vue";
 
 export default {
-  name: 'HomeView',
+  name: "HomeView",
   components: {
     LMap,
     LIcon,
